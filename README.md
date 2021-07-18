@@ -5,9 +5,9 @@ Deployed at https://pnsahu94.github.io/Netflix-React-Clone/
 
 
 Features :
-Plays Youtube trailer of the selected movie 
-Pulls realtime data from TMDB Api
-Shows Netflix Originals , Toprated , Action , Horror , Comedy , Romance and Documentaries
+Plays Youtube trailer of the selected movie \
+Pulls realtime data from TMDB Api \
+Shows Netflix Originals , Toprated , Action , Horror , Comedy , Romance and Documentaries\
 
 
 
