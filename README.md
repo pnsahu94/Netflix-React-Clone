@@ -1,3 +1,18 @@
+# Netflix-React-Clone
+This is a Netflix Clone App created using React , TMDB API , React-Youtube and Movie-Trailer Modules
+
+Deployed at https://pnsahu94.github.io/Netflix-React-Clone/
+
+
+Features :
+ 1-Plays Youtube trailer of the selected movie 
+ 2- Pulls realtime data from TMDB Api
+ 3- Shows Netflix Originals , Toprated , Action , Horror , Comedy , Romance and Documentaries
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
