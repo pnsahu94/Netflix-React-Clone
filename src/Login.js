@@ -75,9 +75,11 @@ function Login() {
                             If you decide Netflix isn't for you - no problem. No
                             commitment. Cancel online anytime.
                         </p>
-                        <div class="option-cancelAnytime-left-btn">
-                            WATCH FREE FOR 30 DAYS
-                        </div>
+                        <Link to="/signin">
+                            <div class="option-cancelAnytime-left-btn">
+                                WATCH FREE FOR 30 DAYS
+                            </div>
+                        </Link>
                     </div>
                     <div className="option-cancelAnytime-right">
                         <img
@@ -94,9 +96,9 @@ function Login() {
                             Watch TV shows and movies anytime, anywhere —
                             personalized for you.
                         </p>
-                        <div class="option-watchAnywhere-top-btn">
-                            WATCH FREE FOR 30 DAYS
-                        </div>
+                        <Link to="/signin" class="option-watchAnywhere-top-btn">
+                            <div>WATCH FREE FOR 30 DAYS</div>
+                        </Link>
                     </div>
 
                     <div className="option-watchAnywhere-bottom">
@@ -139,9 +141,11 @@ function Login() {
                 <div className="option-choosePlan">
                     <div class="option-choosePlan-context">
                         <p>Choose one plan and watch everything on Netflix.</p>
-                        <div class="option-choosePlan-context-btn">
-                            WATCH FREE FOR 30 DAYS
-                        </div>
+                        <Link to="/signin">
+                            <div class="option-choosePlan-context-btn">
+                                WATCH FREE FOR 30 DAYS
+                            </div>
+                        </Link>
                     </div>
                     <div className="option-choosePlan-table">
                         <table className="option-choosePlan-table-table">

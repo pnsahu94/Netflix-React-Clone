@@ -221,6 +221,7 @@ hr {
     border-radius: 2px;
     font-family: Helvetica, Arial, sans-serif;
     width: 25%;
+    text-decoration: none;
 }
 
 .option-watchAnywhere-top-btn:hover {
