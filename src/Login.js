@@ -2,6 +2,9 @@ import React from "react";
 import "./Login.css";
 import logo from "./images/logo.png";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 function Login() {
     return (
@@ -80,25 +83,25 @@ function Login() {
                                 <tr>
                                     <td>HD Available</td>
                                     <td>
-                                        <i class="fas fa-times"></i>
+                                        <FontAwesomeIcon icon={faTimes} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Ultra HD Available</td>
                                     <td>
-                                        <i class="fas fa-times"></i>
+                                        <FontAwesomeIcon icon={faTimes} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-times"></i>
+                                        <FontAwesomeIcon icon={faTimes} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                 </tr>
                                 <tr>
@@ -116,49 +119,49 @@ function Login() {
                                         tablet
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Unlimited movies and TV shows</td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Cancel anytime</td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>First month free</td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                     <td>
-                                        <i class="fas fa-check"></i>
+                                        <FontAwesomeIcon icon={faCheck} />
                                     </td>
                                 </tr>
                             </tbody>
