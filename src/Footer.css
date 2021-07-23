@@ -1,0 +1,39 @@
+.footer {
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+.footer-row {
+    font-size: 1rem;
+    color: #757575;
+}
+
+.footer-row-table {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.footer-row-table > tr {
+    width: 100%;
+}
+
+.footer-row-table > tr > td {
+    width: 25%;
+    padding: 10px 0px;
+    font-size: 0.8rem;
+    color: #757575;
+    cursor: pointer;
+}
+
+.footer-row-table > tr > td:hover {
+    color: white;
+}
+
+hr {
+    height: 4px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+}
