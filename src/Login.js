@@ -155,13 +155,10 @@ function Login() {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>
-                                        Monthly price after free month ends on
-                                        6/19/19
-                                    </td>
-                                    <td>$8.99</td>
-                                    <td>$12.99</td>
-                                    <td>$15.99</td>
+                                    <td>Monthly price</td>
+                                    <td>₹199</td>
+                                    <td>₹649</td>
+                                    <td>₹799</td>
                                 </tr>
                                 <tr>
                                     <td>HD Available</td>
