@@ -12,7 +12,12 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 function Login() {
-    const clickHandler = () => {};
+    const clickHandler = (id) => {
+        let answer = document.querySelector(`#${id}`);
+        if (answer.style.display === "none") {
+            answer.style.display = "block";
+        } else answer.style.display = "none";
+    };
 
     return (
         <div className="login">
@@ -254,12 +259,17 @@ function Login() {
                     <div className="faq-content-question">
                         <div
                             className="faq-content-question-question"
-                            onClick={clickHandler}
+                            onClick={() => {
+                                clickHandler("answer-1");
+                            }}
                         >
                             <p>What is Netflix ?</p>
                             <FontAwesomeIcon icon={faPlus} />
                         </div>
-                        <div className="faq-content-question-answer">
+                        <div
+                            className="faq-content-question-answer"
+                            id="answer-1"
+                        >
                             <p>
                                 Netflix is a streaming service that offers a
                                 wide variety of award-winning TV shows, movies,
@@ -278,12 +288,17 @@ function Login() {
                     <div className="faq-content-question">
                         <div
                             className="faq-content-question-question"
-                            onClick={clickHandler}
+                            onClick={() => {
+                                clickHandler("answer-2");
+                            }}
                         >
                             <p>How much does Netflix cost ?</p>
                             <FontAwesomeIcon icon={faPlus} />
                         </div>
-                        <div className="faq-content-question-answer">
+                        <div
+                            className="faq-content-question-answer"
+                            id="answer-2"
+                        >
                             <p>
                                 Watch Netflix on your smartphone, tablet, Smart
                                 TV, laptop, or streaming device, all for one
@@ -295,12 +310,17 @@ function Login() {
                     <div className="faq-content-question">
                         <div
                             className="faq-content-question-question"
-                            onClick={clickHandler}
+                            onClick={() => {
+                                clickHandler("answer-3");
+                            }}
                         >
                             <p>Where can I watch ?</p>
                             <FontAwesomeIcon icon={faPlus} />
                         </div>
-                        <div className="faq-content-question-answer">
+                        <div
+                            className="faq-content-question-answer"
+                            id="answer-3"
+                        >
                             <p>
                                 Watch anywhere, anytime, on an unlimited number
                                 of devices. Sign in with your Netflix account to
@@ -323,12 +343,17 @@ function Login() {
                     <div className="faq-content-question">
                         <div
                             className="faq-content-question-question"
-                            onClick={clickHandler}
+                            onClick={() => {
+                                clickHandler("answer-4");
+                            }}
                         >
                             <p>How do I cancel ?</p>
                             <FontAwesomeIcon icon={faPlus} />
                         </div>
-                        <div className="faq-content-question-answer">
+                        <div
+                            className="faq-content-question-answer"
+                            id="answer-4"
+                        >
                             <p>
                                 Netflix is flexible. There are no annoying
                                 contracts and no commitments. You can easily
@@ -341,12 +366,17 @@ function Login() {
                     <div className="faq-content-question">
                         <div
                             className="faq-content-question-question"
-                            onClick={clickHandler}
+                            onClick={() => {
+                                clickHandler("answer-5");
+                            }}
                         >
                             <p>What can I watch on Netflix ?</p>
                             <FontAwesomeIcon icon={faPlus} />
                         </div>
-                        <div className="faq-content-question-answer">
+                        <div
+                            className="faq-content-question-answer"
+                            id="answer-5"
+                        >
                             <p>
                                 Netflix has an extensive library of feature
                                 films, documentaries, TV shows, anime,
@@ -358,12 +388,17 @@ function Login() {
                     <div className="faq-content-question">
                         <div
                             className="faq-content-question-question"
-                            onClick={clickHandler}
+                            onClick={() => {
+                                clickHandler("answer-6");
+                            }}
                         >
                             <p>Is Netflix good for kids ?</p>
                             <FontAwesomeIcon icon={faPlus} />
                         </div>
-                        <div className="faq-content-question-answer">
+                        <div
+                            className="faq-content-question-answer"
+                            id="answer-6"
+                        >
                             <p>
                                 The Netflix Kids experience is included in your
                                 membership to give parents control while kids
