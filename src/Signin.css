@@ -1,0 +1,93 @@
+.signin {
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.signin-container {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    box-shadow: inset 120px 100px 250px black, inset -120px -100px 250px black;
+}
+
+.signin-container-header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signin-container-header-logo {
+    height: 45px;
+    margin: 0 56px;
+}
+
+.signin-container-signin {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 30px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.signin-container-signin > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signin-container-signin > form > h5 {
+    margin-bottom: 5px;
+}
+
+.signin-container-signin > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 276px;
+    padding: 0 10px;
+}
+
+.signin-container-signin > p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.signin-container-signin-signInButton {
+    background: #e50914;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.signin-container-signin-signInButton:hover {
+    opacity: 0.9;
+}
+
+.signin-container-signin-registerButton {
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+    cursor: pointer;
+}
+.signin-container-signin-registerButton:hover {
+    opacity: 0.9;
+}
