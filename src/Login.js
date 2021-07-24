@@ -51,17 +51,22 @@ function Login() {
                             restart your membership.
                         </div>
                         <div className="showcase-container-body-getstarted">
-                            <form action="submit">
+                            <form action="">
                                 <input
                                     type="email"
                                     className="showcase-container-body-getstarted-email"
                                     placeholder="Email address"
                                 />
-                                <input
-                                    type="button"
-                                    value="Get Started >"
+                                <Link
+                                    to="/signin"
                                     className="showcase-container-body-getstarted-btn"
-                                />
+                                >
+                                    <input
+                                        type="button"
+                                        value="Get Started >"
+                                        className="showcase-container-body-getstarted-btn btn"
+                                    />
+                                </Link>
                             </form>
                         </div>
                     </div>

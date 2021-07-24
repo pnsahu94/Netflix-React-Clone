@@ -25,8 +25,48 @@
     object-fit: contain;
 }
 
-.nav_avatar {
+.nav_avatar img {
     width: 30px;
     padding: 10px 20px;
     object-fit: contain;
+    cursor: pointer;
+}
+.nav_two {
+    background-color: rgba(0, 0, 0, 0);
+    display: none;
+}
+
+.nav_avatar_user {
+    border: 2px solid black;
+    padding: 25px;
+    text-align: center;
+    width: 200px;
+    background-color: black;
+    z-index: 3;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+}
+
+.nav_avatar_user p {
+    padding: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.nav_avatar_user button {
+    display: inline-block;
+    background: #e50914;
+    color: white;
+    padding: 0.8rem 1.3rem;
+    margin: auto !important;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0, 45);
+    border-radius: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
 }
